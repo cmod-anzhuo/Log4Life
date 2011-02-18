@@ -143,19 +143,19 @@ public class MainActivity extends PreferenceActivity implements IResultReceiver 
 		LinkedHashMap<String, Object> params = new LinkedHashMap<String, Object>();
 		params.put("qqCode", newValue);
 		ATaskMark qqTaskMark = new QQOnlineTaskMark(params);
-		BaseContext.getInstance().getServiceWarper().CallWebService(this,
-				qqTaskMark, null);
+		BaseContext.getInstance().getServiceWarper()
+				.CallWebService(this, qqTaskMark, null);
 	}
 
 	private void quaryIPAddress(String newValue) {
 		LinkedHashMap<String, Object> params = new LinkedHashMap<String, Object>();
 		params.put("theIpAddress", newValue);
 		ATaskMark ipTaskMark = new IPAdressTaskMark(params, false);
-		BaseContext.getInstance().getServiceWarper().CallWebService(this,
-				ipTaskMark, null);
+		BaseContext.getInstance().getServiceWarper()
+				.CallWebService(this, ipTaskMark, null);
 	}
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "rawtypes" })
 	@Override
 	public void receiveResult(ATaskMark taskMark, ActionException exception,
 			Object trackerResult) {
