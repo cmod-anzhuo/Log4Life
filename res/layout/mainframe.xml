@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory>
+		<Preference android:key="airline" android:title="航班查询"
+			android:summary="查询航班信息" />
+		<EditTextPreference android:key="ip_address"
+			android:title="IP 地址查询" android:summary="查询 IP 地址归属地信息" />
+		<EditTextPreference android:key="qq_online"
+			android:title="QQ 查询" android:summary="查询 QQ 是否在线" />
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/LinearLayout00"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<DatePicker android:id="@+id/DatePicker01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</DatePicker>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_marginTop="10dp">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/labeluser"
+			android:text="起点:" android:textStyle="bold" android:textSize="20sp"
+			android:layout_margin="5dp">
+		</TextView>
+		<EditText android:layout_height="wrap_content" android:id="@+id/EditTextUser"
+			android:width="150px" android:layout_width="fill_parent"
+			android:layout_margin="5dp">
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/labelpass"
+			android:text="终点:" android:textStyle="bold" android:textSize="20sp"
+			android:layout_margin="5dp">
+		</TextView>
+		<EditText android:layout_height="wrap_content" android:id="@+id/EditTextPassWord"
+			android:layout_width="fill_parent" android:layout_margin="5dp">
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout04"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:gravity="center">
+		<CheckBox android:id="@+id/CheckBox01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="记住"
+			android:checked="true">
+		</CheckBox>
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_gravity="bottom" android:gravity="center">
+		<Button android:id="@+id/BtnLogin" android:text="确定"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_weight="1">
+		</Button>
+
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/BtnExit"
+			android:text="退出" android:layout_weight="1">
+		</Button>
+	</LinearLayout>
+
+</LinearLayout>

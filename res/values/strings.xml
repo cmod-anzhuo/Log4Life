@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">记录人生</string>
+	<string name="quary_message_failed_title">查询失败</string>
+	<string name="login_button_text">登录</string>
+	<string name="login_message">登录成功</string>
+	<string name="searching">正在查询</string>
+	<string name="pleanse_wait">请稍候...</string>
+	<string name="time_string" formatted="false">时间: %s -&gt; %s</string>
+	<string name="drome_string" formatted="false"> %s -&gt; %s</string>
+	<string name="mode_string" formatted="false">型号: %s</string>
+	<string name="error_tilte">错误</string>
+	<string name="quary_message_failed_message">无法查询所需数据</string>
+	<string name="ok">确定</string>
+	<string name="qq_online">所查询的QQ当前状态：在线</string>
+	<string name="qq_offline">所查询的QQ当前状态：离线</string>
+	<string name="qq_error">所查询的QQ号码不存在</string>
+	<string name="qq_online_label">QQ Online</string>
+	<string name="flyinfo_label">航班查询</string>
+	<string name="successful">成功</string>
+	<string name="ipaddress_label">IP 地址查询</string>
+</resources>
