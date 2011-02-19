@@ -62,7 +62,6 @@ public class MainActivity extends PreferenceActivity implements IResultReceiver 
 	}
 
 	private OnPreferenceChangeListener mOnPreferenceChangeListener = new OnPreferenceChangeListener() {
-		@Override
 		public boolean onPreferenceChange(Preference preference, Object newValue) {
 			// TODO Auto-generated method stub
 			progressDialog = new ProgressDialog(MainActivity.this);
@@ -156,7 +155,6 @@ public class MainActivity extends PreferenceActivity implements IResultReceiver 
 	}
 
 	@SuppressWarnings({ "rawtypes" })
-	@Override
 	public void receiveResult(ATaskMark taskMark, ActionException exception,
 			Object trackerResult) {
 		// TODO Auto-generated method stub

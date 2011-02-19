@@ -76,7 +76,6 @@ public class AirlineList extends ListActivity implements IResultReceiver {
 	}
 
 	@SuppressWarnings("unchecked")
-	@Override
 	public void receiveResult(ATaskMark arg0, ActionException arg1, Object arg2) {
 		// TODO Auto-generated method stub
 		progressDialog.dismiss();
@@ -89,23 +88,19 @@ public class AirlineList extends ListActivity implements IResultReceiver {
 
 	private class MyAdapter extends BaseAdapter implements ListAdapter {
 
-		@Override
 		public int getCount() {
 			return flyInfos.size();
 		}
 
-		@Override
 		public FlyInfo getItem(int arg0) {
 
 			return flyInfos.get(arg0);
 		}
 
-		@Override
 		public long getItemId(int arg0) {
 			return arg0;
 		}
 
-		@Override
 		public View getView(int arg0, View arg1, ViewGroup arg2) {
 
 			if (arg1 == null) {
